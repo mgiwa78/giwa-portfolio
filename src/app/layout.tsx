@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import localFont from "next/font/local";
+import Script from "next/script";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 // Font files can be colocated inside of `app`
 const dmSans = localFont({
@@ -21,7 +23,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={dmSans.className}>{children}</body>
+      <script>var Alert = ReactBootstrap.Alert;</script>
+      <body className={dmSans.className}>
+        {children}
+
+        <Script src="https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js" />
+        <Script src="https://cdn.jsdelivr.net/npm/react-bootstrap@next/dist/react-bootstrap.min.js" />
+        <Script src="https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js" />
+      </body>
     </html>
   );
 }
