@@ -97,7 +97,7 @@ body {
   li:hover {
     a {
       z-index: 10;
-      color: #fff;
+      color: #fff !important;
     }
 
     &::after {
