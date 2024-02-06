@@ -8,7 +8,7 @@ const About = (props: Props) => {
     <section id="about" className="about-section">
       <div className="container">
         <div className="about-header">
-          <h3 className="about-title">Meet Muhammad Giwa</h3>
+          <h3 className="about-title">Meet Giwa Muhammad </h3>
           <h5 className="about-title-sub">
             A Passionate Full Stack Web Engineer
           </h5>

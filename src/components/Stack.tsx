@@ -11,56 +11,56 @@ const Stack = (props: Props) => {
         <div className="stack-body">
           <div className="stack-item">
             <Image
-              width={97}
-              height={97}
+              width={77}
+              height={77}
               alt="stack-image"
               src="/assets/stack/js_.png"
             />
           </div>
           <div className="stack-item">
             <Image
-              width={111}
-              height={126}
+              width={81}
+              height={96}
               alt="stack-image"
               src="/assets/stack/html_.png"
             />
           </div>
           <div className="stack-item">
             <Image
-              width={107}
-              height={121}
+              width={77}
+              height={91}
               alt="stack-image"
               src="/assets/stack/node_.png"
             />
           </div>
           <div className="stack-item">
             <Image
-              width={122}
-              height={108}
+              width={82}
+              height={78}
               alt="stack-image"
               src="/assets/stack/reactjs_.png"
             />
           </div>
           <div className="stack-item">
             <Image
-              width={88}
-              height={195}
+              width={58}
+              height={165}
               alt="stack-image"
               src="/assets/stack/mongo_.png"
             />
           </div>
           <div className="stack-item">
             <Image
-              width={126}
-              height={76}
+              width={86}
+              height={46}
               alt="stack-image"
               src="/assets/stack/tailwind_.png"
             />
           </div>
           <div className="stack-item">
             <Image
-              width={91}
-              height={91}
+              width={61}
+              height={61}
               alt="stack-image"
               src="/assets/stack/blade_.png"
             />
@@ -68,16 +68,16 @@ const Stack = (props: Props) => {
           <div className="stack-item">
             {" "}
             <Image
-              width={121}
-              height={96}
+              width={81}
+              height={66}
               alt="stack-image"
               src="/assets/stack/vue_.png"
             />
           </div>
           <div className="stack-item">
             <Image
-              width={119}
-              height={119}
+              width={79}
+              height={79}
               alt="stack-image"
               src="/assets/stack/next_.png"
             />

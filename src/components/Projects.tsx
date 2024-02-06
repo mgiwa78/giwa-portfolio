@@ -35,6 +35,7 @@ const Projects = (props: Props) => {
                 <li>
                   <Link
                     className="inline-flex gap-2"
+                    target="_blank"
                     href="https://github.com/mgiwa78/showroomApi"
                   >
                     <Image
@@ -43,7 +44,7 @@ const Projects = (props: Props) => {
                       src="/assets/git.svg"
                       alt="git-image"
                     />
-                    github.com/mgiwa78/showroomApi
+                    Visit Repository
                   </Link>
                 </li>
               </ul>
@@ -68,6 +69,7 @@ const Projects = (props: Props) => {
                 <li>
                   <Link
                     className="inline-flex gap-2"
+                    target="_blank"
                     href="https://github.com/mgiwa78/showroomApi"
                   >
                     <Image
@@ -76,7 +78,7 @@ const Projects = (props: Props) => {
                       src="/assets/git.svg"
                       alt="git-image"
                     />
-                    github.com/mgiwa78/showroomApi
+                    Visit Repository
                   </Link>
                 </li>
               </ul>
@@ -101,6 +103,7 @@ const Projects = (props: Props) => {
                 <li>
                   <Link
                     className="inline-flex gap-2"
+                    target="_blank"
                     href="https://github.com/mgiwa78/showroomApi"
                   >
                     <Image
@@ -109,7 +112,7 @@ const Projects = (props: Props) => {
                       src="/assets/git.svg"
                       alt="git-image"
                     />
-                    github.com/mgiwa78/showroomApi
+                    Visit Repository
                   </Link>
                 </li>
               </ul>

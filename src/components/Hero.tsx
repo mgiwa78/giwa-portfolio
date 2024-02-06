@@ -11,7 +11,8 @@ const Hero = (props: Props) => {
         <div className="hero">
           <div className="hero-left ">
             <div className="hero-body-title">
-              Giwa Muhammad, Full Stack web Engineer
+              Giwa Muhammad,
+              <br /> Full Stack web Engineer
               <div className="hero-body-sub">Crafting Digital Experiencee</div>
             </div>
             <div className="hero-body-btn ">
@@ -30,13 +31,7 @@ const Hero = (props: Props) => {
             </div>
           </div>
           <div className="hero-right">
-            <Image
-              width={468}
-              height={467}
-              className="hero-placeholder"
-              alt="hero-placeholder"
-              src={"/assets/hero/hero.svg"}
-            />
+            <img className="hero_img" src="/assets/hero/hero.svg" />
           </div>
         </div>
       </div>
