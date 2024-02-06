@@ -147,14 +147,15 @@ body {
     align-items: center;
     flex-direction: column;
     gap: 40px;
+    margin-top: 30px;
     .hero-left {
       padding: 30px 0;
       .hero-body-title {
-        font-size: 34px;
+        font-size: 44px;
         font-style: normal;
         font-weight: 700;
-        line-height: 33px;
-        margin-bottom: 13px;
+        line-height: 50px;
+        margin-bottom: 30px;
       }
 
       .hero-body-sub {
@@ -162,6 +163,7 @@ body {
         color: #8d8ba7;
         font-size: 18px;
         font-weight: 400;
+        margin-top: 10px;
         font-style: normal;
         line-height: 30px;
       }
@@ -211,7 +213,7 @@ body {
     }
     .hero-right {
       .hero_img {
-        width: 350px;
+        width: 250px;
         border-radius: 300px;
       }
     }
@@ -245,6 +247,7 @@ body {
         .hero-body-title {
           font-size: 56px;
           text-align: left;
+
           font-style: normal;
           font-weight: 700;
           line-height: 66px;
@@ -265,12 +268,19 @@ body {
         }
         .hero-body-sub {
           margin-bottom: 49px;
+          margin-top: 3px;
         }
         .hero-body-btn {
           align-items: flex-start;
           justify-content: start;
           flex-direction: row;
           gap: 30;
+        }
+      }
+      .hero-right {
+        .hero_img {
+          width: 350px;
+          border-radius: 300px;
         }
       }
     }
