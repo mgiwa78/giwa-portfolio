@@ -661,6 +661,14 @@ body {
     margin-top: 0px;
   }
 }
+.logo {
+  width: 250px;
+}
+@media screen and (min-width: 1180px) {
+  .logo {
+    width: 300px;
+  }
+}
 .header-section {
   display: flex;
   justify-content: center;
@@ -675,9 +683,6 @@ body {
     align-items: center;
     flex-direction: column;
     gap: 20px;
-    .logo {
-      width: 200px;
-    }
   }
   @media screen and (min-width: 780px) {
     .container {
@@ -718,6 +723,9 @@ body {
       gap: 40px;
       margin-top: 30px;
       .hero-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         padding: 30px 0;
         .hero-body-title {
           font-size: 44px;
@@ -792,6 +800,7 @@ body {
       text-align: left;
       .hero {
         .hero-left {
+          justify-content: flex-start;
           .hero-body-title {
             font-size: 46px;
             font-style: normal;
@@ -942,6 +951,12 @@ body {
         flex-direction: row;
       }
     }
+    @media screen and (min-width: 1200px) {
+      .about-body {
+        flex-wrap: nowrap;
+        flex-direction: row;
+      }
+    }
   }
 }
 
@@ -1011,40 +1026,40 @@ body {
     display: flex;
     flex-direction: column;
 
-    gap: 30px;
+    gap: 20px;
     .experience-item {
       .experience-item-header {
         display: flex;
         justify-content: space-between;
         align-items: center;
         margin-bottom: 40px;
+        font-size: 20px;
         .title {
           color: #000;
 
           /* Special headings/Display 4 */
           font-family: var(--font-dmSans);
-          font-size: 28px;
+
           font-style: normal;
           font-weight: 700;
-          line-height: 38px; /* 135.714% */
+          line-height: 28px; /* 135.714% */
           span {
             color: #8d8ba7;
 
-            /* Special headings/Display 4 */
             font-family: var(--font-dmSans);
-            font-size: 28px;
+            font-size: 20px;
             font-style: normal;
             font-weight: 700;
-            line-height: 38px;
+            line-height: 20px;
           }
         }
         .sub {
           color: #8d8ba7;
           font-family: var(--font-dmSans);
-          font-size: 16px;
           font-style: normal;
           font-weight: 700;
-          line-height: 38px; /* 237.5% */
+          font-size: 16px;
+          line-height: 22px; /* 237.5% */
         }
       }
       .experience-item-body {
@@ -1056,6 +1071,23 @@ body {
         font-style: normal;
         font-weight: 400;
         line-height: 30px; /* 166.667% */
+      }
+    }
+  }
+  @media screen and (min-width: 780px) {
+    .experience-body {
+      .experience-item {
+        .experience-item-header {
+          font-size: 28px;
+          .title {
+            line-height: 38px;
+            span {
+              line-height: 38px;
+            }
+          }
+          .sub {
+          }
+        }
       }
     }
   }
@@ -1119,6 +1151,11 @@ body {
         border: 1px solid #d4d2e3;
         background: #fff;
         .project-image {
+          max-width: 330px;
+          width: 100%;
+          background-position: center;
+          background-size: cover;
+          height: 163px;
         }
         .projects-item-body {
           display: flex;

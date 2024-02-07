@@ -20,11 +20,7 @@ const Projects = (props: Props) => {
             <div
               className="project-image"
               style={{
-                backgroundImage: "url(/assets/projects/supervised.png)",
-                width: "330px",
-                backgroundPosition: "center",
-                backgroundSize: "cover",
-                height: "163px"
+                backgroundImage: "url(/assets/projects/supervised.png)"
               }}
             >
               {/* <Image
@@ -99,11 +95,7 @@ const Projects = (props: Props) => {
             <div
               className="project-image"
               style={{
-                backgroundImage: "url(/assets/projects/rms.png)",
-                width: "330px",
-                backgroundPosition: "center",
-                backgroundSize: "cover",
-                height: "163px"
+                backgroundImage: "url(/assets/projects/rms.png)"
               }}
             >
               {/* <Image

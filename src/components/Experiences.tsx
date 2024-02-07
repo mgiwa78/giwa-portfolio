@@ -43,10 +43,10 @@ Furthermore, I played a pivotal role in a project centered around a learning man
       company: "IGS Innovative Global solutions ",
       timeline: "August 2022 – June 2023",
       summary: `Participated in development of comprehensive clinic management system using Bootstrap 5 and PHP
-•   Designed and implemented MySQL database schemas for efficient data management,
-•   Collaborated with cross-functional team to ensure project milestones were met,
-•   Conducted code reviews and provided technical guidance to enhance team performance,
-•   Delivered functional system that improved clinic operations and patient management.`
+, Designed and implemented MySQL database schemas for efficient data management,
+, Collaborated with cross-functional team to ensure project milestones were met,
+, Conducted code reviews and provided technical guidance to enhance team performance,
+, Delivered functional system that improved clinic operations and patient management.`
     }
   ];
   return (

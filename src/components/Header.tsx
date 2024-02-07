@@ -14,14 +14,7 @@ const Header = (props: Props) => {
       <Navbar collapseOnSelect expand="lg" className="mt-4 header">
         <Container>
           <Navbar.Brand href="#home">
-            <div className="logo">
-              <Image
-                width={300}
-                height={34}
-                alt="logo"
-                src={"/assets/logo.png"}
-              />
-            </div>
+            <img alt="logo" className="logo" src={"/assets/logo.png"} />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">

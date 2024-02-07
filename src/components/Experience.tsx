@@ -33,7 +33,7 @@ const Experience = ({ experience }: Props) => {
         )}
       </div>
       <div
-        style={{ height: state ? "250px" : 0, overflow: "hidden" }}
+        style={{ height: state ? "max-content" : 0, overflow: "hidden" }}
         className="experience-item-body"
       >
         {experience.summary}
