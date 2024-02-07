@@ -569,6 +569,9 @@ body {
         .project-image {
         }
         .projects-item-body {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
           .projects-item-title {
             color: #000;
             margin-bottom: 10px;
@@ -593,7 +596,8 @@ body {
             padding: 0;
             color: var(--Neutral-Colors-Color-900, #8d8ba7);
             text-align: left;
-            margin-top: 15px;
+            margin: 0px;
+            margin-top: 20px;
             display: flex;
             align-items: flex-start;
             gap: 20px;
@@ -629,7 +633,7 @@ body {
           }
           gap: 25px;
 
-          height: 450px;
+          height: 430px;
         }
       }
     }

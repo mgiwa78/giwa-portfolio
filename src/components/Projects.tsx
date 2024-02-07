@@ -17,16 +17,24 @@ const Projects = (props: Props) => {
         </div>
         <div className="projects-body">
           <div className="projects-item">
-            <div className="project-image">
-              <Image
-                width={330}
-                height={220}
+            <div
+              className="project-image"
+              style={{
+                backgroundImage: "url(/assets/projects/supervised.png)",
+                width: "330px",
+                backgroundPosition: "center",
+                backgroundSize: "cover",
+                height: "163px"
+              }}
+            >
+              {/* <Image
+          
                 src="/assets/projects/project-placeholder.svg"
                 alt=""
-              />
+              /> */}
             </div>
             <div className="projects-item-body">
-              <div className="projects-item-title">Mobile app</div>
+              <div className="projects-item-title">SuperVised</div>
               <div className="projects-item-sub">
                 Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
                 dalaracc lacus vel facilisis volutpat est velitolm.
@@ -54,16 +62,19 @@ const Projects = (props: Props) => {
             <div className="project-image">
               <Image
                 width={330}
-                height={220}
+                height={163}
+                style={{ height: "163px", width: "330px" }}
                 src="/assets/projects/project-placeholder.svg"
                 alt=""
               />
             </div>
             <div className="projects-item-body">
-              <div className="projects-item-title">Mobile app</div>
+              <div className="projects-item-title">
+                Logistics Management System
+              </div>
               <div className="projects-item-sub">
                 Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
-                dalaracc lacus vel facilisis volutpat est velitolm.
+                dalaracc.
               </div>
               <ul className="projects-item-links">
                 <li>
@@ -85,19 +96,30 @@ const Projects = (props: Props) => {
             </div>
           </div>
           <div className="projects-item">
-            <div className="project-image">
-              <Image
+            <div
+              className="project-image"
+              style={{
+                backgroundImage: "url(/assets/projects/rms.png)",
+                width: "330px",
+                backgroundPosition: "center",
+                backgroundSize: "cover",
+                height: "163px"
+              }}
+            >
+              {/* <Image
                 width={330}
-                height={220}
+                height={163}
                 src="/assets/projects/project-placeholder.svg"
                 alt=""
-              />
+              /> */}
             </div>
             <div className="projects-item-body">
-              <div className="projects-item-title">Mobile app</div>
+              <div className="projects-item-title">
+                Real Estate Management System
+              </div>
               <div className="projects-item-sub">
                 Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
-                dalaracc lacus vel facilisis volutpat est velitolm.
+                dalaracc
               </div>
               <ul className="projects-item-links">
                 <li>
