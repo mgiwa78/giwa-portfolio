@@ -42,9 +42,9 @@ const About = (props: Props) => {
             </div>
           </div>
           <div className="about-box">
-            <Image
-              width={81}
-              height={78}
+            <img
+              width="81"
+              height="78"
               src="/assets/about/image2.png"
               alt="about-img-globe"
             />
