@@ -54,7 +54,10 @@ const Header = (props: Props) => {
                   </Nav.Link>
                 </li>{" "}
                 <li>
-                  <Nav.Link className="menu-btn" href={"#resume"}>
+                  <Nav.Link
+                    className="menu-btn"
+                    href={"/assets/resume/giwa-muhammad.pdf"}
+                  >
                     My Resume
                   </Nav.Link>
                 </li>
