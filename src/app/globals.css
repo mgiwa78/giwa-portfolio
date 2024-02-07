@@ -243,9 +243,8 @@ body {
         }
       }
     }
-    @media screen and (min-width: 480px) {
-      text-align: left;
-      .hero {
+    .hero {
+      @media screen and (min-width: 480px) {
         .hero-left {
           justify-content: flex-start;
           .hero-body-title {
@@ -258,11 +257,7 @@ body {
           }
         }
       }
-    }
-    @media screen and (min-width: 780px) {
-      text-align: left;
-      justify-content: center;
-      .hero {
+      @media screen and (min-width: 780px) {
         width: 1116px;
         flex-direction: row;
         justify-content: space-between;
@@ -270,41 +265,40 @@ body {
 
         .hero-left {
           max-width: 530px;
+          display: flex;
+          flex-direction: column;
+        }
+        .hero-left .hero-body-title {
+          font-size: 56px;
+          text-align: left;
+
+          font-style: normal;
+          font-weight: 700;
+          line-height: 66px;
+          margin-bottom: 13px;
         }
 
-        .hero-left {
-          .hero-body-title {
-            font-size: 56px;
-            text-align: left;
-
-            font-style: normal;
-            font-weight: 700;
-            line-height: 66px;
-            margin-bottom: 13px;
-          }
-
-          .hero-btn-left {
-            font-size: 18px;
-            padding: 24px 36px;
-          }
-          .hero-btn-right {
-            display: flex;
-            padding: 24px 36px;
-            width: 290px;
-            gap: 8px;
-            font-size: 18px;
-            line-height: 18px;
-          }
-          .hero-body-sub {
-            margin-bottom: 49px;
-            margin-top: 3px;
-          }
-          .hero-body-btn {
-            align-items: flex-start;
-            justify-content: start;
-            flex-direction: row;
-            gap: 30;
-          }
+        .hero-left .hero-btn-left {
+          font-size: 18px;
+          padding: 24px 36px;
+        }
+        .hero-left .hero-btn-right {
+          display: flex;
+          padding: 24px 36px;
+          width: 290px;
+          gap: 8px;
+          font-size: 18px;
+          line-height: 18px;
+        }
+        .hero-left .hero-body-sub {
+          margin-bottom: 49px;
+          margin-top: 3px;
+        }
+        .hero-left .hero-body-btn {
+          align-items: flex-start;
+          justify-content: start;
+          flex-direction: row;
+          gap: 30;
         }
         .hero-right {
           .hero_img {
