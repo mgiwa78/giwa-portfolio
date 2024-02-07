@@ -16,7 +16,7 @@ const About = (props: Props) => {
         <div className="about-body">
           <div className="about-box">
             <Image
-              src="/assets/about/image.png"
+              src="/assets/about/Image.png"
               width={81}
               height={78}
               alt="about-img-smile"
@@ -42,10 +42,10 @@ const About = (props: Props) => {
             </div>
           </div>
           <div className="about-box">
-            <img
-              width="81"
-              height="78"
-              src="/assets/about/image2.png"
+            <Image
+              width={81}
+              height={78}
+              src="/assets/about/Image2.png"
               alt="about-img-globe"
             />
             <div className="about-box-title">Profession</div>
