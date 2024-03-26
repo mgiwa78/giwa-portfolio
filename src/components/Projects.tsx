@@ -11,8 +11,8 @@ const Projects = (props: Props) => {
         <div className="projects-header">
           <h3 className="projects-title">Projects</h3>
           <h5 className="projects-sub">
-            Lorem ipsum dolor sit amet consectetur adipiscing elit semper dalar
-            elementum tempus hac tellus libero accumsan.
+            Here are some of the projects I've worked on recently to showcase my
+            skills and experience.
           </h5>
         </div>
         <div className="projects-body">
@@ -26,19 +26,19 @@ const Projects = (props: Props) => {
             <div className="projects-item-body">
               <div className="projects-item-title">SuperVised</div>
               <div className="projects-item-sub">
-                "SuperVised™ is an innovative digital platform revolutionizing
+                SuperVised™ is an innovative digital platform revolutionizing
                 academic research supervision. With seamless online
                 collaboration between students and supervisors, it streamlines
                 communication, document management, and project tracking.
                 SuperVised™ ensures academic integrity and timely completion of
-                research projects, enhancing the overall research experience."
+                research projects, enhancing the overall research experience.
               </div>
               <ul className="projects-item-links">
                 <li>
                   <Link
                     className="inline-flex gap-2"
                     target="_blank"
-                    href="https://github.com/mgiwa78/showroomApi"
+                    href="https://skorler.com/"
                   >
                     <Image
                       height={22}
@@ -73,14 +73,14 @@ const Projects = (props: Props) => {
                 it streamlines activities within the system. Utilizing Vue.js
                 for the frontend and Laravel for the backend, it ensures
                 comprehensive control and oversight, enhancing overall
-                logistical efficiency."
+                logistical efficiency.
               </div>
               <ul className="projects-item-links">
                 <li>
                   <Link
                     className="inline-flex gap-2"
                     target="_blank"
-                    href="https://github.com/mgiwa78/showroomApi"
+                    href="https://portal.druppa.com/"
                   >
                     <Image
                       height={22}
@@ -126,7 +126,7 @@ const Projects = (props: Props) => {
                   <Link
                     className="inline-flex gap-2"
                     target="_blank"
-                    href="https://github.com/mgiwa78/showroomApi"
+                    href="https://github.com/mgiwa78/amron-admin"
                   >
                     <Image
                       height={22}
