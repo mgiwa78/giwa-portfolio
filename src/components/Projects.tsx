@@ -58,15 +58,7 @@ const Projects = (props: Props) => {
               style={{
                 backgroundImage: "url(/assets/projects/lms.png)",
               }}
-            >
-              <Image
-                width={330}
-                height={163}
-                style={{ height: "163px", width: "330px" }}
-                src="/assets/projects/project-placeholder.svg"
-                alt=""
-              />
-            </div>
+            ></div>
             <div className="projects-item-body">
               <div className="projects-item-title">
                 Logistics Management System

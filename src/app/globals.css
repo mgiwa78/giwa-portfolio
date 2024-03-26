@@ -42,7 +42,7 @@ a {
     max-width: 1150px;
   }
   @media screen and (min-width: 1480px) {
-    max-width: 1200px;
+    max-width: 1250px;
   }
 }
 body {
