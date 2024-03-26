@@ -11,8 +11,8 @@ const Projects = (props: Props) => {
         <div className="projects-header">
           <h3 className="projects-title">Projects</h3>
           <h5 className="projects-sub">
-            Here are some of the projects I've worked on recently to showcase my
-            skills and experience.
+            Here are some of the projects I&apos;ve worked on recently to
+            showcase my skills and experience.
           </h5>
         </div>
         <div className="projects-body">
