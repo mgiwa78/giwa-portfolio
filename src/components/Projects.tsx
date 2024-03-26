@@ -53,7 +53,12 @@ const Projects = (props: Props) => {
             </div>
           </div>
           <div className="projects-item">
-            <div className="project-image">
+            <div
+              className="project-image"
+              style={{
+                backgroundImage: "url(/assets/projects/lms.png)",
+              }}
+            >
               <Image
                 width={330}
                 height={163}
