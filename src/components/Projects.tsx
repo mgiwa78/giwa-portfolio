@@ -20,20 +20,18 @@ const Projects = (props: Props) => {
             <div
               className="project-image"
               style={{
-                backgroundImage: "url(/assets/projects/supervised.png)"
+                backgroundImage: "url(/assets/projects/supervised.png)",
               }}
-            >
-              {/* <Image
-          
-                src="/assets/projects/project-placeholder.svg"
-                alt=""
-              /> */}
-            </div>
+            ></div>
             <div className="projects-item-body">
               <div className="projects-item-title">SuperVised</div>
               <div className="projects-item-sub">
-                Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
-                dalaracc lacus vel facilisis volutpat est velitolm.
+                "SuperVised™ is an innovative digital platform revolutionizing
+                academic research supervision. With seamless online
+                collaboration between students and supervisors, it streamlines
+                communication, document management, and project tracking.
+                SuperVised™ ensures academic integrity and timely completion of
+                research projects, enhancing the overall research experience."
               </div>
               <ul className="projects-item-links">
                 <li>
@@ -69,8 +67,13 @@ const Projects = (props: Props) => {
                 Logistics Management System
               </div>
               <div className="projects-item-sub">
-                Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
-                dalaracc.
+                A comprehensive solution facilitating seamless customer ordering
+                and delivery processes. With features tailored for parcel
+                logistics, vendor and customer management, and online payments,
+                it streamlines activities within the system. Utilizing Vue.js
+                for the frontend and Laravel for the backend, it ensures
+                comprehensive control and oversight, enhancing overall
+                logistical efficiency."
               </div>
               <ul className="projects-item-links">
                 <li>
@@ -95,7 +98,7 @@ const Projects = (props: Props) => {
             <div
               className="project-image"
               style={{
-                backgroundImage: "url(/assets/projects/rms.png)"
+                backgroundImage: "url(/assets/projects/rms.png)",
               }}
             >
               {/* <Image
@@ -110,8 +113,13 @@ const Projects = (props: Props) => {
                 Real Estate Management System
               </div>
               <div className="projects-item-sub">
-                Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
-                dalaracc
+                A custom application designed to simplify property and payment
+                management processes. Leveraging technologies such as
+                JavaScript, HTML, CSS, PHP, SQL, and Bootstrap 5, it offers
+                user-friendly solutions for real estate firms. By centralizing
+                property and payment management, it enhances efficiency and
+                improves employee task management, ultimately optimizing overall
+                operations.
               </div>
               <ul className="projects-item-links">
                 <li>

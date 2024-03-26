@@ -14,8 +14,9 @@ const Contact = (props: Props) => {
               <h5 className="contact-sub">Contact me</h5>
               <h4 className="contact-title">Get in touch today</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipiscing elit nulla
-                adipiscing tincidunt interdum tellus du.
+                Hello, I'm [Your Name], a skilled Full Stack Developer excited
+                about the opportunity to contribute to your team and help
+                develop your next-generation projects.
               </p>
             </div>
             <ul>

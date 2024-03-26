@@ -589,7 +589,8 @@ body {
         max-width: 377px;
         width: 100%;
         gap: 25px;
-        height: 450px;
+        min-height: 450px;
+        height: max-content;
         border: 1px solid #d4d2e3;
         background: #fff;
         .project-image {
@@ -664,7 +665,9 @@ body {
           }
           gap: 25px;
 
-          height: 430px;
+          min-height: 430px;
+
+          height: max-content;
         }
       }
     }
